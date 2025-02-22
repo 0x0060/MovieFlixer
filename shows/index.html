@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieFlixer Shows</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/mov.css">
+    <link rel="icon" href="../images/lag.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></head>
+
+<body>
+    <div class="header-container fade-in-on-scroll">
+        <header>
+            <img alt="Logo" class="logo" src="../images/lag.png" onclick="navigateToHome()">
+            <h1 class="header-title" onclick="navigateToHome()">TV Shows</h1>
+            <div class="icons" onclick="toggleMenu()">☰</div>
+            <nav class="nav">
+                <a href="../index.html">Home</a>
+                <a href="../movies/index.html">Movies</a>
+                <a href="#">TV Shows</a>
+                <a href="https://github.com/0x0060" target="_blank">Github</a>
+            </nav>
+        </header>
+    </div>
+
+    <div class="search-container fade-in-on-scroll">
+        <input type="text" id="search-bar" placeholder="">
+        <button id="search-button"><i class='bx bx-search-alt'></i></button>
+    </div>
+
+    <div id="movies-container" class="fade-in-on-scroll"></div>
+    <div id="floating-description" class="floating-description"></div>
+
+    <script src="../js/shows.js"></script>
+    <script src="../js/all.js"></script>
+</body>
+
+</html>
