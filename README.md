@@ -49,20 +49,23 @@ The application uses the TMDB API. To run your own instance:
 
 ```
 MovieFlixer/
-├── css/
-│   ├── styles.css
-│   └── mov.css
-├── js/
-│   ├── all.js
-│   ├── movies.js
-│   ├── script.js
-│   └── shows.js
-├── images/
+├── assets/
+│   ├── css/
+│   │   ├── styles.css
+│   │   └── mov.css
+│   ├── js/
+│   │   ├── all.js
+│   │   ├── movies.js
+│   │   ├── script.js
+│   │   └── shows.js
+│   ├── images/
+│   └── fonts/
 ├── movies/
 │   └── index.html
 ├── shows/
 │   └── index.html
 └── index.html
+
 ```
 
 ## Features in Detail ϟ
